@@ -21,14 +21,14 @@ Requirements:
 
 Configure the git bare repo and pull.
 ```
-mkdir ~/.files
-cd ~/.files
+cd
 git clone https://github.com/2O4/.files.git
+cd .files
 ```
 
 Install zsh plugins
 ```
-config submodule update --init --recursive
+git submodule update --init --recursive
 ```
 
 ### Installation of a specific config

@@ -1,15 +1,15 @@
-[submodule ".files/zsh/plugins/zsh-autosuggestions"]
-	path = .files/zsh/plugins/zsh-autosuggestions
+[submodule "zsh/plugins/zsh-autosuggestions"]
+	path = zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
-[submodule ".files/zsh/plugins/zsh-history-substring-search"]
-	path = .files/zsh/plugins/zsh-history-substring-search
+[submodule "zsh/plugins/zsh-history-substring-search"]
+	path = zsh/plugins/zsh-history-substring-search
 	url = https://github.com/zsh-users/zsh-history-substring-search
-[submodule ".files/zsh/plugins/zsh-syntax-highlighting"]
-	path = .files/zsh/plugins/zsh-syntax-highlighting
+[submodule "zsh/plugins/zsh-syntax-highlighting"]
+	path = zsh/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
-[submodule ".files/tmux/plugins/tmux-prefix-highlight"]
-	path = .files/tmux/plugins/tmux-prefix-highlight
-	url = https://github.com/tmux-plugins/tmux-prefix-highlight
-[submodule ".files/tmux/plugins/tmux-battery"]
-	path = .files/tmux/plugins/tmux-battery
+[submodule "tmux/plugins/tmux-battery"]
+	path = tmux/plugins/tmux-battery
 	url = https://github.com/tmux-plugins/tmux-battery
+[submodule "tmux/plugins/tmux-prefix-highlight"]
+	path = tmux/plugins/tmux-prefix-highlight
+	url = https://github.com/tmux-plugins/tmux-prefix-highlight
