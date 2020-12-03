@@ -1,0 +1,173 @@
+
+window:
+  dimensions:
+    columns: 100
+    lines: 30
+
+  decorations: none
+
+#env:
+#  TERM: xterm-256color
+
+schemes:
+
+  tango_dark: &tango_dark
+    primary:
+      background: '0x1b1b1b'
+      foreground: '0xd3d7cf'
+    normal:
+      black: '0x2e3436'
+      red: '0xcc0000'
+      green: '0x4e9a06'
+      yellow: '0xc4a000'
+      blue: '0x3465a4'
+      magenta: '0x75507b'
+      cyan: '0x06989a'
+      white: '0xd3d7cf'
+    bright:
+      black: '0x555753'
+      red: '0xef2929'
+      green: '0x8ae234'
+      yellow: '0xfce94f'
+      blue: '0x729fcf'
+      magenta: '0xad7fa8'
+      cyan: '0x34e2e2'
+      white: '0xeeeeec'
+
+  material_600: &material_600
+    primary:
+      background: '0x1b1b1b'
+      foreground: '0xd3d7cf'
+    normal:
+      black: '0x424242'
+      red: '0xe53935'
+      green: '0x43a047'
+      yellow: '0xfdd835'
+      blue: '0x3949ab'
+      magenta: '0x8e24aa'
+      cyan: '0x00acc1'
+      white: '0xbdbdbd'
+    bright:
+      black: '0x6d6d6d'
+      red: '0xff6f60'
+      green: '0x76d275'
+      yellow: '0xffff6b'
+      blue: '0x6f74dd'
+      magenta: '0xc158dc'
+      cyan: '0x5ddef4'
+      white: '0xefefef'
+
+  custom-tomorrow: &custom-tomorrow
+    primary:
+      background: '0x1b1b1b'  #'0x262626'
+      foreground: '0xd3d7cf'
+    normal:
+      black: '0x424242'
+      red: '0xCC6666'
+      green: '0xB5BD68'
+      yellow: '0xF0C674'
+      blue: '0x75BEFF'
+      magenta: '0xB180D7'
+      cyan: '0x6EE6E6'
+      white: '0xEEEEEC'
+    bright:
+      black: '0x424242'
+      red: '0xCC6666'
+      green: '0xB5BD68'
+      yellow: '0xF0C674'
+      blue: '0x75BEFF'
+      magenta: '0xB180D7'
+      cyan: '0x6EE6E6'
+      white: '0xEEEEEC'
+
+  base16-tomorrow-night: &base16-tomorrow-night
+    primary:
+      background: '0x1d1f21'
+      foreground: '0xc5c8c6'
+    cursor:
+      text: '0x1d1f21'
+      cursor: '0xc5c8c6'
+    normal:
+      black:   '0x1d1f21'
+      red:     '0xcc6666'
+      green:   '0xb5bd68'
+      yellow:  '0xf0c674'
+      blue:    '0x81a2be'
+      magenta: '0xb294bb'
+      cyan:    '0x8abeb7'
+      white:   '0xc5c8c6'
+    bright:
+      black:   '0x969896'
+      red:     '0xde935f'
+      green:   '0x282a2e'
+      yellow:  '0x373b41'
+      blue:    '0xb4b7b4'
+      magenta: '0xe0e0e0'
+      cyan:    '0xa3685a'
+      white:   '0xffffff'
+
+  base16-tomorrow-night-256: &base16-tomorrow-night-256
+      primary:
+        background: '0x1b1b1b'
+        foreground: '0xd3d7cf'
+        #background: '0x1d1f21'
+        #foreground: '0xc5c8c6'
+      cursor:
+        text: '0x1d1f21'
+        cursor: '0xc5c8c6'
+      normal:
+        black:   '0x1d1f21'
+        red:     '0xcc6666'
+        green:   '0xb5bd68'
+        yellow:  '0xf0c674'
+        blue:    '0x81a2be'
+        magenta: '0xb294bb'
+        cyan:    '0x8abeb7'
+        white:   '0xc5c8c6'
+      bright:
+        black:   '0x969896'
+        red:     '0xcc6666'
+        green:   '0xb5bd68'
+        yellow:  '0xf0c674'
+        blue:    '0x81a2be'
+        magenta: '0xb294bb'
+        cyan:    '0x8abeb7'
+        white:   '0xffffff'
+
+      indexed_colors:
+        - { index: 16, color: '0xde935f' }
+        - { index: 17, color: '0xa3685a' }
+        - { index: 18, color: '0x282a2e' }
+        - { index: 19, color: '0x373b41' }
+        - { index: 20, color: '0xb4b7b4' }
+        - { index: 21, color: '0xe0e0e0' }
+
+  nord_darker: &nord_darker
+    primary:
+      background: '0x1b1b1b'
+      foreground: '0xd3d7cf'
+    cursor:
+      text: '0x1d1f21'
+      cursor: '0xc5c8c6'
+    normal:
+      black:   '0x3B4252'
+      red:     '0xBF616A'
+      green:   '0xA3BE8C'
+      yellow:  '0xEBCB8B'
+      blue:    '0x81A1C1'
+      magenta: '0xB48EAD'
+      cyan:    '0x88C0D0'
+      white:   '0xE5E9F0'
+    bright:
+      black:   '0x3B4252'
+      red:     '0xBF616A'
+      green:   '0xA3BE8C'
+      yellow:  '0xEBCB8B'
+      blue:    '0x81A1C1'
+      magenta: '0xB48EAD'
+      cyan:    '0x88C0D0'
+      white:   '0xE5E9F0'
+
+draw_bold_text_with_bright_colors: false
+
+colors: *nord_darker
