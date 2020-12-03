@@ -47,30 +47,36 @@ ln -s ~/.files/zshrc ~/.zshrc
 And for the rest:
 ```
 # To use the nvim config
+mkdir ~/.config/nvim/
 ln -s ~/.files/init.vim ~/.config/nvim/init.vim
 
 # To use the vim config
-ln -s ~/.files/init.vim ~/.vim.rc
+ln -s ~/.files/init.vim ~/.vimrc
 
 # To use the tmux config
 ln -s ~/.files/tmux.conf ~/.tmux.conf
 
 # To use the alacritty config
+~/.config/alacritty/
 ln -s ~/.files/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 # For the custom scripts
-ln -s ~/.files/bin ~/.local/bin/
+mkdir ~/.local/bin/
+ln -s ~/.files/bin/* ~/.local/bin/
 ```
 
 For the custom nvim/vim files:
 ```
 # For the custom airline theme (to match the tmux theme)
+mkdir ~/.config/nvim/autoload/airline/themes/
 ln -s ~/.files/nvim/autoload/airline/themes/custom.vim ~/.config/nvim/autoload/airline/themes/custom.vim
 
 # For the custom theme
+mkdir ~/.config/nvim/colors/
 ln -s ~/.files/nvim/colors/base16-tomorrow-night-custom.vim ~/.config/nvim/colors/base16-tomorrow-night-custom.vim
 
 # For the custom python syntax
+mkdir ~/.config/nvim/syntax/
 ln -s ~/.files/nvim/syntax/python.vim ~/.config/nvim/syntax/python.vim
 ```
 
