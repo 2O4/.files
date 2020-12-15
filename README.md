@@ -57,7 +57,7 @@ ln -s ~/.files/init.vim ~/.vimrc
 ln -s ~/.files/tmux.conf ~/.tmux.conf
 
 # To use the alacritty config
-~/.config/alacritty/
+mkdir ~/.config/alacritty/
 ln -s ~/.files/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 # For the custom scripts
