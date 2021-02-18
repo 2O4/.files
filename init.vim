@@ -84,6 +84,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'ap/vim-css-color'
+Plug 'editorconfig/editorconfig-vim'
 
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
