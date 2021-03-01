@@ -125,7 +125,6 @@ alias ssh=color-ssh                                             # custom ssh fun
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df="df -h"                                                # Human-readable sizes
 alias free="free -m"                                            # Show sizes in MB
-alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"  # Manage dotfiles
 alias p="sudo pacman"                                           #
 alias a="sudo apt-get"                                          #
 
