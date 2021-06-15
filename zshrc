@@ -104,16 +104,16 @@ bindkey '^H' backward-kill-word                                 # delete previou
 bindkey '^[[Z' undo                                             # Shift+tab undo last action
 
 zle -N cd_up
-bindkey '^[k' cd_up                                              # cd ..
+bindkey '^[k' cd_up                                             # cd ..
 
 zle -N ll_current
-bindkey '^[j' ll_current                                         # ll
+bindkey '^[j' ll_current                                        # ll
 
 zle -N git_root
-bindkey '^[h' git_root                                           # git root
+bindkey '^[h' git_root                                          # git root
 
 zle -N git_prepare
-bindkey '^[g' git_prepare                                        # git add, commit, push
+bindkey '^[g' git_prepare                                       # git add, commit, push
 
 compdef _ssh color-ssh=ssh
 alias ssh=color-ssh                                             # custom ssh function
@@ -125,13 +125,15 @@ alias ssh=color-ssh                                             # custom ssh fun
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df="df -h"                                                # Human-readable sizes
 alias free="free -m"                                            # Show sizes in MB
-alias p="sudo pacman"                                           #
-alias a="sudo apt-get"                                          #
+alias p="sudo pacman"
+alias pi="sudo pacman -S"
+alias a="sudo apt-get"
+alias ai="sudo apt-get install"
 
-alias v="$EDITOR"                                               #
-alias sv="sudo $EDITOR"                                         #
-alias r="ranger"                                                #
-alias sr="sudo ranger"                                          #
+alias v="$EDITOR"
+alias sv="sudo $EDITOR"
+alias r="ranger"
+alias sr="sudo ranger"
 alias y="youtube-dl -i -x --audio-format best"                  # Download musics
 alias yd="youtube-dl"                                           # Download videos
 
@@ -142,25 +144,25 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias l="ls --color=auto"                                       # ls
-alias ls="ls --color=auto"                                      # ls
-alias la="ls -A --color=auto"                                   # ls -A
-alias ll="ls -lahF --color=auto --group-directories-first"      # ls -l
+alias l="ls --color=auto"
+alias ls="ls --color=auto"
+alias la="ls -A --color=auto"
+alias ll="ls -lahF --color=auto --group-directories-first"
 
-alias grep="grep --color=auto"                                  #
-alias egrep="egrep --color=auto"                                #
-alias fgrep="fgrep --color=auto"                                #
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
 
-alias g="git"                                                   # Git
-alias ga="git add"                                              #
-alias gaa="git add --all"                                          #
-alias gp="git push"                                             #
-alias gpl="git pull"                                            #
-alias gs="git status"                                           #
-alias gc="git commit -m"                                        #
-alias gpu="git pull"                                            #
-alias gd="git diff"                                             #
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"  # Git log
+alias g="git"
+alias ga="git add"
+alias gaa="git add --all"
+alias gp="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gc="git commit -m"
+alias gd="git diff"
+alias gf="git fetch"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
 alias reload="exec ${SHELL} -l"
 alias h="history"
